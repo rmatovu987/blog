@@ -13,7 +13,7 @@ gem "sprockets-rails"
 gem "pg"
 
 # Use the Puma web server [https://github.com/puma/puma]
-gem "puma", "~> 5.0"
+gem "puma", "~> 4.3.9"
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
@@ -59,6 +59,8 @@ group :development do
   gem "capistrano", "~> 3.10", require: false
   gem "capistrano-rails", "~> 1.3", require: false
   gem "capistrano-rvm"
+  gem 'capistrano-bundler'
+  gem 'capistrano3-puma'
   gem "capistrano-secrets-yml"
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]

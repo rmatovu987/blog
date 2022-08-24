@@ -6,6 +6,7 @@ require "capistrano/deploy"
 
 # Capfile
 require 'capistrano/rvm'
+require 'capistrano-bundler'
 require "capistrano/secrets_yml"
 require "capistrano/rails/migrations"
 
@@ -19,6 +20,10 @@ require "capistrano/rails/migrations"
 # or
 require "capistrano/scm/git"
 install_plugin Capistrano::SCM::Git
+
+require 'capistrano/puma'
+install_plugin Capistrano::Puma
+install_plugin Capistrano::Puma::Daemon
 
 # Include tasks from other gems included in your Gemfile
 #
