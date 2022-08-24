@@ -6,6 +6,8 @@ require "capistrano/deploy"
 
 # Capfile
 require 'capistrano/rvm'
+require "capistrano/secrets_yml"
+require "capistrano/rails/migrations"
 
 # Load the SCM plugin appropriate to your project:
 #
