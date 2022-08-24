@@ -35,3 +35,10 @@ Q
 !app/mailers/application_mailer.rb,3/2/329dcb56769718d2f61bf2e5f74ab58934386470
 K
 app/jobs/application_job.rb,5/9/595e3046b28835d106b73141d7d1a6ca360194d9
+Q
+!config/environments/production.rb,4/a/4a310e0d78d1faa88d49084f8149abd3441b1f25
+<
+Gemfile.lock,2/1/21fb5836b499a2be648386aac055d2e069160d6c
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
