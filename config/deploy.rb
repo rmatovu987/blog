@@ -12,7 +12,7 @@
 
 ##new code
 # Change these
-server '18.141.56.186', port: 22, roles: [:web, :app, :db], primary: true
+# server '18.141.56.186', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'https://github.com/rmatovu987/blog'
 set :application,     'blog'
