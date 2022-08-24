@@ -7,6 +7,7 @@ set :repo_url, "https://github.com/rmatovu987/blog"
 # config/deploy.rb
 set :rvm_ruby_version, "ruby-3.1.2"
 set :default_env, { rvm_bin_path: "~/.rvm/bin" }
+set :branch, "main"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
